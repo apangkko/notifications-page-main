@@ -14,6 +14,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+    transition: .3s ease;
 }
 
 body, h2, p, blockquote {
@@ -77,6 +78,7 @@ img {
 }
 
 .notification {
+    cursor: pointer;
     border-radius: .3rem;
     display: flex;
     align-items: flex-start;
